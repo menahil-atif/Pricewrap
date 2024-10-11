@@ -1,0 +1,74 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main styles */
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px; /* Adjusted padding */
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px; /* Reduced margin bottom */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-top: 5px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Social media icons styles */
+.social-media-icons {
+    margin-bottom: 20px;
+}
+
+.social-media-icons img {
+    margin-right: 10px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 50px 0;
+}

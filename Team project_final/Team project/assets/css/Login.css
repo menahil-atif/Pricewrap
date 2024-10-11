@@ -1,0 +1,72 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black font color */
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Center styles */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Black box with white text */
+.black-box {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black font color */
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center; /* Center the text inside the box */
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White font color */
+    border: none;
+    cursor: pointer;
+}
+
+/* Hyperlink styles */
+a {
+    color: #000000; /* Black font color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
